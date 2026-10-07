@@ -1,0 +1,11 @@
+import QRCode from 'qrcode';
+import {fileURLToPath} from 'node:url';
+import {PNG} from 'pngjs';
+import jsQR from 'jsqr';
+import {readFile} from 'node:fs/promises';
+const target='https://dihao.xiaosang.cc/';
+await QRCode.toFile(fileURLToPath(new URL('../assets/qr.png',import.meta.url)),target,{width:360,margin:2,errorCorrectionLevel:'M'});
+const png=PNG.sync.read(await readFile(new URL('../assets/qr.png',import.meta.url)));
+const decoded=jsQR(new Uint8ClampedArray(png.data),png.width,png.height);
+if(decoded?.data!==target)throw Error('QR target mismatch');
+console.log('QR generated and decoded:',decoded.data);

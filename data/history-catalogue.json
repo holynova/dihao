@@ -1,0 +1,698 @@
+{
+  "scope": "16位代表人物；各人使用年号名称列全；谥号采用标注的全称与关键版本；尊号只列可核对实例，不承诺穷尽",
+  "checkedAt": "2026-10-07",
+  "people": [
+    {
+      "id": "qin",
+      "label": "秦始皇",
+      "dyn": "秦",
+      "name": "嬴政",
+      "life": "称皇帝：前221—前210",
+      "temple": "无",
+      "post": "无",
+      "era": "无年号",
+      "honor": "始皇帝（帝号）",
+      "note": "“始皇帝”表达的是从我开始、后面接二世三世的序列。“始皇”不是谥号，也不是年号。秦时还没有后来的年号制度。先秦姓氏制度与后世不同，这里使用通行称呼“嬴政”。",
+      "lesson": "不是每个皇帝都能填满这五个字段。",
+      "source": "qin",
+      "refUrl": "https://ctext.org/shiji/qin-shi-huang-ben-ji/zhs",
+      "yearList": [],
+      "postVersions": [
+        [
+          "制度说明",
+          "秦始皇废除谥法，本例无谥号。"
+        ]
+      ],
+      "shortTemple": "无",
+      "shortPost": "无",
+      "shortHonor": "始皇帝〔帝号〕",
+      "shortEra": "无年号",
+      "badge": "五类并不齐全",
+      "honorNote": "始皇帝（帝号）",
+      "extraSources": []
+    },
+    {
+      "id": "han",
+      "label": "汉武帝",
+      "dyn": "西汉",
+      "name": "刘彻",
+      "life": "在位：前141—前87",
+      "temple": "世宗",
+      "post": "孝武皇帝（简称武帝）",
+      "era": "建元、元光等",
+      "honor": "本例不展开",
+      "note": "“汉”定位王朝，“武帝”来自谥号。刘彻有多个年号；传统纪年表把建元元年列为前140年。早期年号的实际命名与追记过程有学术讨论，不宜讲成登基当天发明了一套现成制度。",
+      "lesson": "谥号可以成为今天最常用的称呼。",
+      "source": "han",
+      "refUrl": "https://ctext.org/han-shu/wu-di-ji/zhs",
+      "yearList": [
+        [
+          "建元",
+          -140,
+          -135
+        ],
+        [
+          "元光",
+          -134,
+          -129
+        ],
+        [
+          "元朔",
+          -128,
+          -123
+        ],
+        [
+          "元狩",
+          -122,
+          -117
+        ],
+        [
+          "元鼎",
+          -116,
+          -111
+        ],
+        [
+          "元封",
+          -110,
+          -105
+        ],
+        [
+          "太初",
+          -104,
+          -101
+        ],
+        [
+          "天汉",
+          -100,
+          -97
+        ],
+        [
+          "太始",
+          -96,
+          -93
+        ],
+        [
+          "征和",
+          -92,
+          -89
+        ],
+        [
+          "后元",
+          -88,
+          -87
+        ]
+      ],
+      "postVersions": [
+        [
+          "全称",
+          "孝武皇帝"
+        ]
+      ],
+      "shortTemple": "世宗",
+      "shortPost": "孝武",
+      "shortHonor": "未列实例",
+      "shortEra": "建元等 11 个",
+      "badge": "11 个年号",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": [
+        [
+          "11个年号清单与早期命名讨论",
+          "https://ctext.org/wiki.pl?chapter=736119&if=gb"
+        ]
+      ]
+    },
+    {
+      "id": "tang",
+      "label": "唐太宗",
+      "dyn": "唐",
+      "name": "李世民",
+      "life": "在位：626—649",
+      "temple": "太宗",
+      "post": "文皇帝（初谥）",
+      "era": "贞观（627—649）",
+      "honor": "天可汗（特定政治语境的尊称）",
+      "note": "626年即位，627年才开始贞观纪年。初谥为“文皇帝”，后世多次加谥，754年加为“文武大圣大广孝皇帝”。“天可汗”涉及诸部拥戴的政治关系，不等同于朝廷册上的全部尊号。",
+      "lesson": "即位年不一定就是年号元年，身后称号也有版本。",
+      "source": "tang",
+      "refUrl": "https://www.dpm.org.cn/lemmas/244234.html",
+      "yearList": [
+        [
+          "贞观",
+          627,
+          649
+        ]
+      ],
+      "postVersions": [
+        [
+          "649年初谥",
+          "文皇帝"
+        ],
+        [
+          "674年加谥",
+          "文武圣皇帝"
+        ],
+        [
+          "749年加谥",
+          "文武大圣皇帝"
+        ],
+        [
+          "754年加谥",
+          "文武大圣大广孝皇帝"
+        ]
+      ],
+      "shortTemple": "太宗",
+      "shortPost": "文〔初谥〕",
+      "shortHonor": "天可汗〔尊称〕",
+      "shortEra": "贞观",
+      "badge": "谥号多次加长",
+      "honorNote": "天可汗（特定政治语境的尊称）",
+      "extraSources": [
+        [
+          "初谥与加谥依据",
+          "https://www.dpm.org.cn/Uploads/File/pdf/2d/a1/fc/2da1fcc5d7f4152a7146bc821c736984.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "xuanzong",
+      "label": "唐玄宗",
+      "dyn": "唐",
+      "name": "李隆基",
+      "life": "在位：712—756",
+      "temple": "玄宗",
+      "post": "至道大圣大明孝皇帝",
+      "era": "先天、开元、天宝",
+      "honor": "开元神武皇帝（713年所上）",
+      "note": "在“开元三年”里，开元是年号；在“开元神武皇帝”这一整串里，它是尊号的一部分。判断类别要看用途与上下文，不能只看两个字。",
+      "lesson": "同样的字，可以出现在不同类别的称号中。",
+      "source": "honor",
+      "refUrl": "https://www.shidianguji.com/zh/mid-page/7340117971173376051",
+      "yearList": [
+        [
+          "先天",
+          712,
+          713
+        ],
+        [
+          "开元",
+          713,
+          741
+        ],
+        [
+          "天宝",
+          742,
+          756
+        ]
+      ],
+      "postVersions": [
+        [
+          "《旧唐书》所载",
+          "至道大圣大明孝皇帝"
+        ]
+      ],
+      "shortTemple": "玄宗",
+      "shortPost": "大明孝",
+      "shortHonor": "开元神武皇帝",
+      "shortEra": "先天 / 开元 / 天宝",
+      "badge": "尊号与年号字样重叠",
+      "honorNote": "开元神武皇帝（713年所上）",
+      "extraSources": [
+        [
+          "生前尊号册文",
+          "https://zh.wikisource.org/zh-hans/請加開元神武尊號表（先天二年十一月）"
+        ]
+      ]
+    },
+    {
+      "id": "song",
+      "label": "宋太祖",
+      "dyn": "北宋",
+      "name": "赵匡胤",
+      "life": "在位：960—976",
+      "temple": "太祖",
+      "post": "启运立极英武睿文神德圣功至明大孝皇帝",
+      "era": "建隆、乾德、开宝",
+      "honor": "未列实例",
+      "note": "“太祖”可以出现在不同王朝。只说太祖不能唯一指向赵匡胤，要补上王朝。",
+      "lesson": "同一个庙号，可以指不同的人。",
+      "source": "https://zh.wikisource.org/zh-hans/宋史/卷001",
+      "refUrl": "https://zh.wikisource.org/zh-hans/宋史/卷001",
+      "yearList": [
+        [
+          "建隆",
+          960,
+          963
+        ],
+        [
+          "乾德",
+          963,
+          968
+        ],
+        [
+          "开宝",
+          968,
+          976
+        ]
+      ],
+      "postVersions": [
+        [
+          "《宋史》所载",
+          "启运立极英武睿文神德圣功至明大孝皇帝"
+        ]
+      ],
+      "shortTemple": "太祖",
+      "shortPost": "大孝",
+      "shortHonor": "未列实例",
+      "shortEra": "建隆 / 乾德 / 开宝",
+      "badge": "庙号会重名",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "yuan",
+      "label": "元世祖",
+      "dyn": "元",
+      "name": "忽必烈",
+      "life": "大汗在位：1260—1294；1271年定国号元",
+      "temple": "世祖",
+      "post": "圣德神功文武皇帝",
+      "era": "中统、至元",
+      "honor": "未列实例",
+      "note": "“元世祖”与“清世祖”不是同一个人。忽必烈使用中统、至元两个年号；“至元”后来也被另一位皇帝使用。",
+      "lesson": "王朝、人物、年号要一起定位。",
+      "source": "https://www.dpm.org.cn/lemmas/242765.html",
+      "refUrl": "https://www.dpm.org.cn/lemmas/242765.html",
+      "yearList": [
+        [
+          "中统",
+          1260,
+          1264
+        ],
+        [
+          "至元",
+          1264,
+          1294
+        ]
+      ],
+      "postVersions": [
+        [
+          "全称",
+          "圣德神功文武皇帝"
+        ]
+      ],
+      "shortTemple": "世祖",
+      "shortPost": "文武",
+      "shortHonor": "未列实例",
+      "shortEra": "中统 / 至元",
+      "badge": "年号会重名",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "hongwu",
+      "label": "洪武帝",
+      "dyn": "明",
+      "name": "朱元璋",
+      "life": "在位：1368—1398",
+      "temple": "太祖",
+      "post": "高皇帝（谥号末段简称）",
+      "era": "洪武（1368—1398）",
+      "honor": "本例不展开",
+      "note": "“洪武”是年号。“明太祖”和“洪武帝”都能指朱元璋，前者使用庙号，后者使用年号。明清的一帝一元惯例，让年号常能充当人物简称。",
+      "lesson": "年号本来标时间，稳定之后也能顺便指人。",
+      "source": "mingwu",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226244.html",
+      "yearList": [
+        [
+          "洪武",
+          1368,
+          1398
+        ]
+      ],
+      "postVersions": [
+        [
+          "初谥（故宫所载）",
+          "圣神文武钦明启运俊德成功统天大孝高皇帝"
+        ],
+        [
+          "嘉靖年间改谥",
+          "开天行道肇纪立极大圣至神仁文义武俊德成功高皇帝"
+        ]
+      ],
+      "shortTemple": "太祖",
+      "shortPost": "高",
+      "shortHonor": "未列实例",
+      "shortEra": "洪武",
+      "badge": "一帝一元惯例",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "yongle",
+      "label": "永乐帝",
+      "dyn": "明",
+      "name": "朱棣",
+      "life": "在位：1402—1424",
+      "temple": "太宗 → 成祖（1538年改）",
+      "post": "文皇帝（谥号末段简称）",
+      "era": "永乐（1403—1424）",
+      "honor": "本例不展开",
+      "note": "1402年登基，次年才开始永乐纪年。去世后原庙号为太宗，嘉靖十七年（1538）改为成祖。因此“成祖”不是他在世时的自称。",
+      "lesson": "庙号也能被后来的政治权力改写。",
+      "source": "ming",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226257.html",
+      "yearList": [
+        [
+          "永乐",
+          1403,
+          1424
+        ]
+      ],
+      "postVersions": [
+        [
+          "1424年初谥",
+          "体天弘道高明广运圣武神功纯仁至孝文皇帝"
+        ],
+        [
+          "1538年改谥",
+          "启天弘道高明肇运圣武神功纯仁至孝文皇帝"
+        ]
+      ],
+      "shortTemple": "太宗 → 成祖",
+      "shortPost": "文",
+      "shortHonor": "未列实例",
+      "shortEra": "永乐",
+      "badge": "庙号后来改定",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "ying",
+      "label": "明英宗",
+      "dyn": "明",
+      "name": "朱祁镇",
+      "life": "在位：1435—1449、1457—1464",
+      "temple": "英宗",
+      "post": "睿皇帝（谥号末段简称）",
+      "era": "正统（1436—1449）、天顺（1457—1464）",
+      "honor": "本例不展开",
+      "note": "被俘后失去皇位，后来复位，重新使用天顺年号。一个人有两段在位经历，也有两个年号。这是明代一帝一元惯例的著名例外。",
+      "lesson": "“明清常一帝一元”是惯例，不是没有例外的定律。",
+      "source": "ying",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226253.html",
+      "yearList": [
+        [
+          "正统",
+          1436,
+          1449
+        ],
+        [
+          "天顺",
+          1457,
+          1464
+        ]
+      ],
+      "postVersions": [
+        [
+          "全称",
+          "法天立道仁明诚敬昭文宪武至德广孝睿皇帝"
+        ]
+      ],
+      "shortTemple": "英宗",
+      "shortPost": "睿",
+      "shortHonor": "未列实例",
+      "shortEra": "正统 / 天顺",
+      "badge": "复位再改元",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "wanli",
+      "label": "万历帝",
+      "dyn": "明",
+      "name": "朱翊钧",
+      "life": "在位：1572—1620",
+      "temple": "神宗",
+      "post": "范天合道哲肃敦简光文章武安仁止孝显皇帝",
+      "era": "万历",
+      "honor": "未列实例",
+      "note": "朱翊钧1572年即位，次年才开始万历纪年。“明神宗”和“万历帝”取的是同一个人的不同字段。长谥号没有直接变成大家最常用的名字。",
+      "lesson": "称呼取哪个字段，取决于通行习惯。",
+      "source": "https://www.dpm.org.cn/court/lineage/226265.html",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226265.html",
+      "yearList": [
+        [
+          "万历",
+          1573,
+          1620
+        ]
+      ],
+      "postVersions": [
+        [
+          "全称",
+          "范天合道哲肃敦简光文章武安仁止孝显皇帝"
+        ]
+      ],
+      "shortTemple": "神宗",
+      "shortPost": "显",
+      "shortHonor": "未列实例",
+      "shortEra": "万历",
+      "badge": "同人异称",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "huangtaiji",
+      "label": "清太宗",
+      "dyn": "后金 / 清",
+      "name": "爱新觉罗·皇太极",
+      "life": "1626年继汗位；1636年称帝；1643年去世",
+      "temple": "太宗",
+      "post": "应天兴国弘德彰武宽温仁圣睿孝敬敏昭定隆道显功文皇帝",
+      "era": "天聪、崇德",
+      "honor": "宽温仁圣皇帝",
+      "note": "1626年继承汗位，1627年开始天聪纪年；1636年定国号大清并改元崇德。其庙号也叫太宗，但与唐太宗毫无同人关系。",
+      "lesson": "一个人可以改国号，也可以改年号。",
+      "source": "https://www.dpm.org.cn/court/lineage/226251.html",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226251.html",
+      "yearList": [
+        [
+          "天聪",
+          1627,
+          1636
+        ],
+        [
+          "崇德",
+          1636,
+          1643
+        ]
+      ],
+      "postVersions": [
+        [
+          "初谥（故宫所载）",
+          "应天兴国弘德彰武宽温仁圣睿孝文皇帝"
+        ],
+        [
+          "后世累加谥",
+          "应天兴国弘德彰武宽温仁圣睿孝敬敏昭定隆道显功文皇帝"
+        ]
+      ],
+      "shortTemple": "太宗",
+      "shortPost": "文",
+      "shortHonor": "宽温仁圣皇帝",
+      "shortEra": "天聪 / 崇德",
+      "badge": "改国号，也改年号",
+      "honorNote": "宽温仁圣皇帝",
+      "extraSources": []
+    },
+    {
+      "id": "shunzhi",
+      "label": "顺治帝",
+      "dyn": "清",
+      "name": "爱新觉罗·福临",
+      "life": "在位：1643—1661",
+      "temple": "世祖",
+      "post": "体天隆运定统建极英睿钦文显武大德弘功至仁纯孝章皇帝",
+      "era": "顺治",
+      "honor": "未列实例",
+      "note": "1643年即位，1644年开始顺治纪年。后来的朝廷为他确定庙号“世祖”，这不是年号或姓名。",
+      "lesson": "“祖”字的用途，不是编排登基顺序。",
+      "source": "https://www.dpm.org.cn/court/lineage/226262.html",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226262.html",
+      "yearList": [
+        [
+          "顺治",
+          1644,
+          1661
+        ]
+      ],
+      "postVersions": [
+        [
+          "卒谥（故宫页面文字）",
+          "体天隆运定统建极英睿钦文显武大德弘功圣仁纯孝章皇帝"
+        ],
+        [
+          "1736年所载加尊谥（《清史稿》）",
+          "体天隆运定统建极英睿钦文显武大德弘功至仁纯孝章皇帝"
+        ]
+      ],
+      "shortTemple": "世祖",
+      "shortPost": "章",
+      "shortHonor": "未列实例",
+      "shortEra": "顺治",
+      "badge": "世祖不等于第一个",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": [
+        [
+          "《清史稿》相关版本",
+          "https://zh.wikisource.org/zh-hans/清史稿/卷10"
+        ]
+      ]
+    },
+    {
+      "id": "kangxi",
+      "label": "康熙帝",
+      "dyn": "清",
+      "name": "爱新觉罗·玄烨",
+      "life": "在位：1661—1722",
+      "temple": "圣祖",
+      "post": "仁皇帝（谥号末段简称）",
+      "era": "康熙（1662—1722）",
+      "honor": "本例不展开",
+      "note": "玄烨1661年即位，1662年才开始康熙纪年。“康熙”不是他的姓名，“圣祖”也不意味着他是清朝第一个皇帝。不能把“祖”字当成开国身份的充分条件。",
+      "lesson": "一个常用简称，只取了这个人的某一个字段。",
+      "source": "qing",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226256.html",
+      "yearList": [
+        [
+          "康熙",
+          1662,
+          1722
+        ]
+      ],
+      "postVersions": [
+        [
+          "全称",
+          "合天弘运文武睿哲恭俭宽裕孝敬诚信中和功德大成仁皇帝"
+        ]
+      ],
+      "shortTemple": "圣祖",
+      "shortPost": "仁",
+      "shortHonor": "未列实例",
+      "shortEra": "康熙",
+      "badge": "即位≠改元",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "yongzheng",
+      "label": "雍正帝",
+      "dyn": "清",
+      "name": "爱新觉罗·胤禛",
+      "life": "在位：1722—1735",
+      "temple": "世宗",
+      "post": "敬天昌运建中表正文武英明宽仁信毅睿圣大孝至诚宪皇帝",
+      "era": "雍正",
+      "honor": "未列实例",
+      "note": "1722年即位，1723年开始雍正纪年。“宪皇帝”是长谥号的末段简称；“世宗”与汉武帝的庙号相同，但王朝、人物不同。",
+      "lesson": "相同字段的值会重复，不能单独识别人。",
+      "source": "https://www.dpm.org.cn/court/lineage/226259.html",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226259.html",
+      "yearList": [
+        [
+          "雍正",
+          1723,
+          1735
+        ]
+      ],
+      "postVersions": [
+        [
+          "故宫人物页所载",
+          "敬天昌运建中表正文武英明宽仁信毅睿圣大孝至诚宪皇帝"
+        ]
+      ],
+      "shortTemple": "世宗",
+      "shortPost": "宪",
+      "shortHonor": "未列实例",
+      "shortEra": "雍正",
+      "badge": "世宗会重名",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    },
+    {
+      "id": "qianlong",
+      "label": "乾隆帝",
+      "dyn": "清",
+      "name": "爱新觉罗·弘历",
+      "life": "皇帝在位：1735—1796；太上皇：1796—1799",
+      "temple": "高宗",
+      "post": "法天隆运至诚先觉体元立极敷文奋武钦明孝慈神圣纯皇帝",
+      "era": "乾隆",
+      "honor": "未列实例",
+      "note": "1735年即位，1736年开始乾隆纪年；1796年让位后称太上皇帝，仍掌握重要权力，到1799年去世。年号、正式身份与实际掌权时间是不同变量。",
+      "lesson": "年号截止，不等于此人立刻失去权力。",
+      "source": "https://zh.wikisource.org/zh-hans/清史稿/卷10",
+      "refUrl": "https://zh.wikisource.org/zh-hans/清史稿/卷10",
+      "yearList": [
+        [
+          "乾隆",
+          1736,
+          1795
+        ]
+      ],
+      "postVersions": [
+        [
+          "《清史稿·高宗本纪》篇首所载",
+          "法天隆运至诚先觉体元立极敷文奋武钦明孝慈神圣纯皇帝"
+        ]
+      ],
+      "shortTemple": "高宗",
+      "shortPost": "纯",
+      "shortHonor": "未列实例",
+      "shortEra": "乾隆",
+      "badge": "退位≠失去权力",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": [
+        [
+          "《清史稿》相关版本",
+          "https://zh.wikisource.org/zh-hans/清史稿/卷10"
+        ]
+      ]
+    },
+    {
+      "id": "xuantong",
+      "label": "宣统帝",
+      "dyn": "清",
+      "name": "爱新觉罗·溥仪",
+      "life": "清帝在位：1908—1912（不含1917年短暂复辟）",
+      "temple": "无清朝朝廷所定庙号",
+      "post": "无清朝朝廷所定谥号",
+      "era": "宣统",
+      "honor": "未列实例",
+      "note": "1908年即位，1909年开始宣统纪年，1912年清帝退位。这里限定清朝朝廷制度，不把后来的私人追称混进官方庙谥。",
+      "lesson": "没有字段，仍能通过年号或姓名称呼。",
+      "source": "https://www.dpm.org.cn/court/lineage/226255.html",
+      "refUrl": "https://www.dpm.org.cn/court/lineage/226255.html",
+      "yearList": [
+        [
+          "宣统",
+          1909,
+          1912
+        ]
+      ],
+      "postVersions": [
+        [
+          "制度范围",
+          "没有清朝朝廷正式议定的庙号、谥号；不把后来私人追称列为官定。"
+        ]
+      ],
+      "shortTemple": "无官定",
+      "shortPost": "无官定",
+      "shortHonor": "未列实例",
+      "shortEra": "宣统",
+      "badge": "未必有官定庙谥",
+      "honorNote": "本册未枚举此人的尊号。这里的空缺不是“历史上没有”的断言。",
+      "extraSources": []
+    }
+  ]
+}

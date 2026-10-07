@@ -1,0 +1,14 @@
+import { readFile, mkdir, writeFile, copyFile, readdir } from 'node:fs/promises';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const pkg=JSON.parse(await readFile(resolve(root,'package.json'),'utf8'));
+const catalogue=JSON.parse(await readFile(resolve(root,'data/history-catalogue.json'),'utf8'));
+let html=await readFile(resolve(root,'src/index.html'),'utf8');
+html=html.replace(/const catalogue=\[.*?\];\s*function yearSpan/s,'const catalogue='+JSON.stringify(catalogue.people)+';\nfunction yearSpan');
+html=html.replaceAll('__APP_VERSION__',pkg.version);
+await mkdir(resolve(root,'dist/data'),{recursive:true});await mkdir(resolve(root,'dist/assets'),{recursive:true});
+await writeFile(resolve(root,'dist/index.html'),html);
+await copyFile(resolve(root,'data/history-catalogue.json'),resolve(root,'dist/data/history-catalogue.json'));
+for(const name of await readdir(resolve(root,'assets')))if(/\.(png|webp|svg)$/.test(name))await copyFile(resolve(root,'assets',name),resolve(root,'dist/assets',name));
+console.log(`Built dihao v${pkg.version}: ${catalogue.people.length} people`);

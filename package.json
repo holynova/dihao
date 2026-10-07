@@ -1,0 +1,24 @@
+{
+  "name": "dihao",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mobile-first emperor-name explainer with 16 examples and 32 era records",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "npm run build && wrangler dev --config wrangler.jsonc",
+    "deploy:check": "npm run build && npm run check && wrangler deploy --dry-run --config wrangler.jsonc",
+    "deploy": "npm run build && npm run check && wrangler deploy --config wrangler.jsonc",
+    "assets:qr": "node scripts/generate-qr.mjs"
+  },
+  "devDependencies": {
+    "jsqr": "1.4.0",
+    "pngjs": "7.0.0",
+    "qrcode": "1.5.4",
+    "wrangler": "4.148.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
