@@ -8,7 +8,7 @@ English: A mobile-first Chinese history explainer about imperial names, era name
 
 ## 在线体验 / Live Demo
 
-- [Cloudflare Demo](https://dihao.xiaosang.cc/)（上线验证中 / Verification in progress）
+- [Cloudflare Demo](https://dihao.xiaosang.cc/)
 - [GitHub Repo](https://github.com/holynova/dihao)
 
 <img src="./assets/qr.png" width="180" alt="扫码访问 Cloudflare 在线体验">
