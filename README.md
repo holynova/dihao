@@ -1,38 +1,77 @@
-# 帝号 / Dihao
+<p align="right"><a href="README.en.md">English</a></p>
 
-中文：移动端优先的皇帝称呼科普网页。用白话和关系图解释姓名、年号、庙号、谥号与尊号；包含16位代表人物、32条年号记录、八组推理案例和小测验。主表便于扫读，完整称号与版本变化默认展开，支持搜索、王朝筛选和年号换算。保留“读懂、拆解、沿革”三个方向，默认打开读懂。
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="帝号 — 一个皇帝，为什么有这么多名字？同一个人李世民：年号贞观、庙号太宗、谥号文皇帝">
+</p>
 
-English: A mobile-first Chinese history explainer about imperial names, era names, temple names, posthumous names and honorary titles. Includes 16 representative rulers, 32 era records, eight worked examples, searchable source-linked reference lists, a year converter and quizzes. Three interactive directions remain available.
+<p align="center">
+  <a href="https://dihao.xiaosang.cc/">▶ 在线阅读</a>
+  ·
+  <a href="https://github.com/holynova/dihao">GitHub 仓库</a>
+</p>
 
-![Project screenshot](./assets/screenshot.png)
+移动端优先的中国历史称呼科普：用白话和关系图解释姓名、年号、庙号、谥号与尊号——五种称呼回答的根本不是同一个问题。收录 16 位代表人物、32 条年号记录、8 组推理案例与 4 道小测验；支持搜索、王朝筛选、年号换算与 JSON 下载。
 
-## 在线体验 / Live Demo
+## 截图
 
-- [Cloudflare Demo](https://dihao.xiaosang.cc/)
-- [GitHub Repo](https://github.com/holynova/dihao)
+<p align="center">
+  <img src="./assets/readme/screenshot-home.png" width="300" alt="首页：一个皇帝，为什么有这么多名字？李世民、唐太宗、贞观，5 种不同用途、16 人、4 题">
+  <img src="./assets/readme/screenshot-compare.png" width="300" alt="16 人一眼对照表：秦始皇、汉武帝（建元等 11 个年号）、唐太宗，年号、庙号、谥号简称、尊号实例四栏对照">
+</p>
 
-<img src="./assets/qr.png" width="180" alt="扫码访问 Cloudflare 在线体验">
+## 五种称呼，一套逻辑
 
-## 本地运行 / Run locally
+| 称呼 | 回答的问题 | 例子（李世民） |
+|---|---|---|
+| 姓名 | 他本人是谁 | 李世民 |
+| 年号 | 哪一年（纪年） | 贞观（627—649） |
+| 庙号 | 宗庙祭祀时怎么称呼 | 太宗 |
+| 谥号 | 去世后如何评价 | 文皇帝（初谥） |
+| 尊号 | 生前群臣请上的尊崇称号 | 天可汗（特定政治语境的尊称） |
+
+判断称呼时，先问它在指人、标时间、定祭祀称呼，还是在作评价与尊崇——用途和上下文比字面更可靠。
+
+## 内容
+
+- **16 位代表人物**：嬴政、刘彻、李世民、李隆基、赵匡胤、忽必烈、朱元璋、朱棣、朱祁镇、朱翊钧、皇太极、福临、玄烨、胤禛、弘历、溥仪（秦至清，含后金）。
+- **32 条年号记录**：各人年号名称列全（如刘彻建元等 11 个）；嬴政无年号。
+- **8 组推理案例**：为什么一会儿唐太宗、一会儿汉武帝？唐太宗与清太宗是同一个人？（不是——"太宗"会跨王朝重复。）"开元神武皇帝"整串应怎样理解？（尊号。）
+- **4 道小测验**：检查理解而非死记（如"唐太宗"的"太宗"是庙号；"康熙三年"首先是纪年）。
+- **三个方向**：读懂、拆解、沿革，默认打开"读懂"。
+
+## 功能
+
+- **搜索与王朝筛选**：按姓名、王朝或称呼找人物。
+- **年号换算**：年号与公元年份对照（如贞观 627—649）。
+- **完整称号默认展开**：谥号全称与关键版本变化直接可见，标明出处。
+- **JSON 下载**：完整清单、更多例子与 32 条年号记录均可下载，数据与页面展示由同一 `data/history-catalogue.json` 生成。
+- **出处链接**：每人附资料来源链接（如故宫网页、《清史稿》），可逐条核对。
+
+## 内容范围
+
+本版不是历代皇帝全集：收录 16 位代表人物；年号名称覆盖所收录 16 人；谥号全称与关键版本标明出处；尊号仅列可核对实例，不声称穷尽历次授号。早期汉代年号命名存在追记讨论；日期范围为涉及的公元年份，不替代月日历表。明确区分在位年份、改元年份、初谥、加谥、改庙号和末段简称；私人追称不混入官定庙谥。详见 [Content scope](./docs/CONTENT_SCOPE.md)。
+
+页面原创关系图均为解释示意图，不是文物画像。
+
+## 本地运行
 
 ```bash
 npm ci
-npm run dev
+npm run build    # 把 data/history-catalogue.json 注入页面并复制公开 JSON
+npm run check    # 数据校验
 ```
 
-## 检查与发布 / Check and deploy
+修改人物资料时编辑 `data/history-catalogue.json`，再 `npm run build`，避免展示与下载数据不一致。
 
-```bash
-npm run deploy:check
-npm run deploy
+## 技术
+
+- 纯 HTML + CSS + JS，零框架；构建脚本把 JSON 数据注入 `src/index.html` 生成发布页面。
+- 移动端优先，390px 竖屏排版；三个方向（读懂 / 拆解 / 沿革）底部切换。
+
 ```
-
-Cloudflare Workers · Domain: `dihao.xiaosang.cc` · Version: `0.1.0`.
-
-Source and deployment configuration use `main`. Deploy locally with Wrangler; no Cloudflare build branch or deployment workflow.
-
-## 内容范围 / Content scope
-
-本版不是历代皇帝全集。年号名称覆盖所收录16人；谥号全称与关键版本标明出处；尊号仅列可核对实例。资料年份不替代月日历表。详见 [Content scope](./docs/CONTENT_SCOPE.md)。
-
-The catalogue is representative rather than exhaustive. Sources and version notes remain visible. Edit `data/history-catalogue.json`, then build to keep displayed and downloadable data aligned.
+src/index.html              页面模板（数据由构建注入）
+data/history-catalogue.json 16 人完整数据（年号 / 谥号版本 / 出处）
+scripts/build.mjs           数据注入 + 公开 JSON 复制
+scripts/check.mjs           数据校验
+docs/CONTENT_SCOPE.md       内容范围与编辑原则
+```
